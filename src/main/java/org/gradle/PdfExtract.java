@@ -30,8 +30,6 @@ public class PdfExtract {
 		try {
 			// text to perform search
 			String[] text = getTextFromPdf("test.pdf").split("/(\t)|(\n)|(.)/");
-
-			System.out.println(text[0]);
 			
 			// syntax analyzer
 			Analyzer analyzer = new StandardAnalyzer();
